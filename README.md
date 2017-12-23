@@ -1,3 +1,12 @@
+# Todo app example deployment
+
+### The code for this repo comes from the course 'the advanced webe developer bootcamp' which can be found on udemy
+
+https://www.udemy.com/the-advanced-web-developer-bootcamp
+
+if you don't understand any of the code in this repo I would recomend this course and the others by Colt Steel
+
+
 ## How to deploy a node react fullstack wep application with heroku
 
 node api for the backend
