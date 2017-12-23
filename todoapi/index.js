@@ -1,10 +1,12 @@
 var express = require('express'),
     app = express(),
     port = process.env.PORT || 8080,
-    bodyParser = require('body-parser');
+    bodyParser = require('body-parser'),
+    path = require('path');
     
 var todoRoutes = require("./routes/todos");
 
+app.use(express.static(path.resolve(__dirname, '../todosfrontend/build')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname +'/public'));
@@ -19,5 +21,3 @@ app.use('/api/todos', todoRoutes);
 app.listen(port, function(){
     console.log("APP IS RUNNING ON PORT " + port);
 })
-    
-    
