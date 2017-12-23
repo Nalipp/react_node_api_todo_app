@@ -24,6 +24,10 @@ warning:
 1. create a parent folder that holds the folowing
 
    -> todoapi (this holds the entire node app)
+     ```
+       npm install --save mongoose
+       npm install --save express
+     ```
 
    -> create-react-app todosfrontend (or name these whatevery you want)
 
