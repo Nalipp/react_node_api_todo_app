@@ -51,7 +51,7 @@ class TodoList extends Component {
     ))
     return (
       <div>
-        <h1>Todo List!</h1>
+        <h1>Todo Goes here!</h1>
         <TodoForm addTodo={this.addTodo} />
         <ul>
           {todo}
