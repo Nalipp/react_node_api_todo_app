@@ -1,16 +1,16 @@
 {
-  "name": "full_stack_todo_app",
+  "name": "best-world-weather",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node todoapi",
-    "heroku-postbuild": "cd todosfrontend/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
+    "start": "node api",
+    "heroku-postbuild": "cd client/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "cacheDirectories": [
     "node_modules",
-    "todosfrontend/node_modules"
+    "client/node_modules"
   ],
   "author": "",
   "license": "ISC",
